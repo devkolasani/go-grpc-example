@@ -5,6 +5,7 @@ import (
 )
 
 type Server struct {
+	UnimplementedArithmeticServer
 }
 
 func (s *Server) Operation(ctx context.Context, req *OperationRequest) (*OperationResponse, error) {
