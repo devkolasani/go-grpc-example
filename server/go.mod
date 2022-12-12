@@ -1,8 +1,11 @@
-module github.com/devkolasani/go-grpc-example
+module github.com/devkolasani/go-grpc-example/server
 
 go 1.19
 
-require google.golang.org/grpc v1.51.0
+require (
+	github.com/devkolasani/go-grpc-example v0.0.0-20221212050035-1aef3b24f99e
+	google.golang.org/grpc v1.51.0
+)
 
 require (
 	github.com/golang/protobuf v1.5.2 // indirect
